@@ -1,0 +1,9 @@
+#wrapper{
+  width: 600px;
+  margin: 0px auto;
+  display: block;
+  vertical-align: top;
+}
+#wrapper * {
+  display: block;
+}

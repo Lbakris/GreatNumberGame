@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Great Number Game</title>
+    <link rel="stylesheet" href="static\stylesheets\style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Welcome to the Great Number Game</h1>
+      <h4>I am thinking of a number between 1 to 100</h4>
+      <h6>Take a guess!</h6>
+      <form class="" action="/try" method="post">
+        <input type="text" name="number" value="">
+        <input type="submit"  value="Submit">
+      </form>
+      <h4>Number needs to be {{session['advice']}}</h4>
+      <h4>You have won some times</h4>
+    </div>
+  </body>
+</html>
